@@ -5,8 +5,8 @@ using UnityEngine;
 public class CarCameraTwo : MonoBehaviour
 {
 
-    public Gameobject player;
-    private Vector3 offset = new Vector3(0, 1.8, 1.4);
+    public GameObject player;                                
+    private Vector3 offset = new Vector3(0, 1.8f, 1.4f);
     
     // Start is called before the first frame update
     void Start()
@@ -17,6 +17,6 @@ public class CarCameraTwo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = player.transfrom.position + offset;
+        transform.position = player.transform.position + offset;
     }
 }

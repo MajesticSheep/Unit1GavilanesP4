@@ -287,6 +287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe70d24ac93dd84388cafc25bf1783a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 533762796}
 --- !u!81 &56225685
 AudioListener:
   m_ObjectHideFlags: 0
@@ -921,6 +922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 184080473}
+  - component: {fileID: 184080474}
   m_Layer: 0
   m_Name: CameraSwitcher
   m_TagString: Untagged
@@ -944,6 +946,20 @@ Transform:
   - {fileID: 56225687}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &184080474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184080472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517ffcefcac0c5e4ab77d3a1cc4ecf3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cam1: {fileID: 534669904}
+  Cam2: {fileID: 56225686}
 --- !u!1 &219798755 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8780424320546655309, guid: 71782582b9d2cac4cba5251a3b767d13, type: 3}

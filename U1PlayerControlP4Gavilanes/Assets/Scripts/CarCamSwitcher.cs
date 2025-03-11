@@ -10,7 +10,7 @@ public class CarCamSwitcher : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cam1.nabled = true;
+        Cam1.enabled = true;
         Cam2.enabled = false;
     }
 
