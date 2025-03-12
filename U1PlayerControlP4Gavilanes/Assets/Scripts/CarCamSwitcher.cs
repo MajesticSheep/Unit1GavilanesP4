@@ -17,7 +17,8 @@ public class CarCamSwitcher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("CameraSwitch"))
+        //allow switching state of the cameras on key press
+        if(Input.GetButtonDown("Down"))
         {
             Cam1.enabled = !Cam1.enabled;
             Cam2.enabled = !Cam2.enabled;
