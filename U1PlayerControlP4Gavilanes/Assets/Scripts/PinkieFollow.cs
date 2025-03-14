@@ -5,7 +5,7 @@ using UnityEngine;
 public class PinkieFollow : MonoBehaviour
 {
 
-    private float speed = 3.5f;
+    public float speed = 3.5f;
     // Start is called before the first frame update
     void Start()
     {
