@@ -8,7 +8,7 @@ public class CarCameraTwo : MonoBehaviour
     public Camera mainCamera;
     public Camera hoodCamera;
     public KeyCode switchKey;
-
+ 
     public GameObject player;                                
     private Vector3 offset = new Vector3(0, 1.8f, 1.4f);
     
